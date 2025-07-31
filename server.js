@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin: '*', // replace with your frontend URL
+    origin: 'https://www.mitronwear.com', // replace with your frontend URL
 
     credentials: true
 }));
